@@ -1,5 +1,5 @@
 def crystal(m, pos1, pos2):
-    print(pos1, pos2, m)
+
     if m == 1:
         if pos2 == y and pos1 + 1 <= x < pos1 + 4:
             return 'crystal'
